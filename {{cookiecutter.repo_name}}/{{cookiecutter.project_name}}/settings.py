@@ -119,6 +119,8 @@ STATICFILES_DIRS = (
     root('assets'),
 )
 
+STATIC_ROOT = root('growloop/staticfiles/')
+
 TEMPLATE_DIRS = (
     root('templates'),
 )
