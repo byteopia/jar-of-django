@@ -1,0 +1,52 @@
+[
+  {
+    "model": "web.Plan",
+    "pk": 1,
+    "fields": {
+      "stripe_id": 1234,
+      "display_name": "Free",
+      "price": 0.00,
+      "slug": "free"
+    }
+  },
+  {
+    "model": "web.Plan",
+    "pk": 2,
+    "fields": {
+      "stripe_id": 1234,
+      "display_name": "Starter",
+      "price": 49.99,
+      "slug": "starter"
+    }
+  },
+  {
+    "model": "web.Plan",
+    "pk": 3,
+    "fields": {
+      "stripe_id": 1234,
+      "display_name": "Pro",
+      "price": 199.99,
+      "slug": "pro"
+    }
+  },
+  {
+    "model": "web.Plan",
+    "pk": 4,
+    "fields": {
+      "stripe_id": 1234,
+      "display_name": "Enterprise",
+      "price": 999.99,
+      "slug": "enterprise"
+    }
+  },
+  {
+    "model": "web.Plan",
+    "pk": 5,
+    "fields": {
+      "stripe_id": 1234,
+      "display_name": "Custom",
+      "price": 0.00,
+      "slug": "custom"
+    }
+  }
+]
