@@ -119,7 +119,7 @@ STATICFILES_DIRS = (
     root('assets'),
 )
 
-STATIC_ROOT = root('growloop/staticfiles/')
+STATIC_ROOT = root('{{cookiecutter.project_name}}/staticfiles/')
 
 TEMPLATE_DIRS = (
     root('templates'),
